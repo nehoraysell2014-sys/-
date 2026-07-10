@@ -34,3 +34,20 @@ footer a:hover { color: #FFFFFF; text-decoration: underline; }
     .hero-content { flex-direction: column-reverse; text-align: center; }
     .hero-img { margin-top: 20px; }
 }
+
+/* Launch Banner */
+.launch-banner {
+    background: linear-gradient(135deg, #FF007F, #7F00FF);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    animation: pulse-banner 2s infinite;
+}
+
+@keyframes pulse-banner {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
